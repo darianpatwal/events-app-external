@@ -104,7 +104,7 @@ describe('POST /event/like', function () {
     nock("http://localhost:8082")
       //define the method to be intercepted
       .post('/event/like')
-      //respond with a OK and the specified JSON response
+      //respond with a OK and the specified JSON response this is my test 
       .reply(200, {
         "status": 200,
         "events": [
