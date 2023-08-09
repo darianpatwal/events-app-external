@@ -134,7 +134,7 @@ describe('POST /event/unlike', function () {
   const data = { id: 1234 };
     //specify the url to be intercepted
     nock("http://localhost:8082")
-      //define the method to be intercepted
+      //define the method to be intercepted-  this is branch test 3.
       .delete('/event/like')
       //respond with a OK and the specified JSON response this is test 2
       .reply(200, {
