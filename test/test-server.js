@@ -102,7 +102,7 @@ describe('POST /event/like', function () {
   const data = { id: 1234 };
     //specify the url to be intercepted
     nock("http://localhost:8082")
-      //define the method to be intercepted
+      //define the method to be intercepted - test again
       .post('/event/like')
       //respond with a OK and the specified JSON response this is my test 
       .reply(200, {
